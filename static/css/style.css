@@ -62,10 +62,10 @@ i.badge.badge-notify.my-cart-badge {
 .product_list_header span {
     font-size: 1em;
     color: #fff;
-	top: 1em;
+    top: 1em;
 }
 input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input[type="reset"],.agileinfo_mail_grid_left ul li a,.events_bottom_left2 ul li a,.w3ls_service_grids1_right a,ul.agileits_social_icons li a,.w3l_banner_nav_right_banner_pet a,.w3ls_w3l_banner_nav_right_grid_head_grid ul li a,.products-breadcrumb ul li a,.w3_footer_grid ul li a,.w3l_fresh_vegetables_grid ul li a,.wthree_footer_copy p a,.agile_top_brand_left_grid1 .button,.w3ls_logo_products_left1 ul.special_items li a,.w3ls_logo_products_left1 ul.phone_email li a{
-	transition: .5s ease-in;
+	 transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;
 	-moz-transition: .5s ease-in;
 	-o-transition: .5s ease-in;
@@ -129,7 +129,7 @@ button.btn.btn-default.search:hover {
   float: left;
   width: 40%;
   text-align: right;
-  padding: 15px 65px;
+  padding: 15px 140px 15px 50px;
 }
 .agile-login ul li {
     display: inline-block;
@@ -1367,9 +1367,9 @@ ul.faq {
 }
 .brands-w3l p a{
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
-    color: #39c;
+    color: #000000;
 	background: #fff;
     padding: 16px;
 	display: block;
@@ -3392,4 +3392,8 @@ td.invert-image a img {
 .w3agile_description p {
     font-size: 13px;
 }
+}
+
+.links{
+    font-weight: 500;
 }
