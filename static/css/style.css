@@ -117,7 +117,7 @@ i.fa.fa-phone {
 button.btn.btn-default.search {
     background: #fe9126;
     padding: 11px 12px 11px;
-    float: right;
+    float: none;
     outline: none;
     border: none;
 }
@@ -126,10 +126,10 @@ button.btn.btn-default.search:hover {
 
 }
 .agile-login {
-    float: left;
-    width: 40%;
-    text-align: center;
-    padding: 9px 0;
+  float: left;
+  width: 40%;
+  text-align: right;
+  padding: 15px 65px;
 }
 .agile-login ul li {
     display: inline-block;
@@ -138,7 +138,7 @@ button.btn.btn-default.search:hover {
 .agile-login ul li a {
     font-size: 1em;
     text-transform: capitalize;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 .w3l_search input[type="search"] {
@@ -174,14 +174,14 @@ button.w3l_search {
     margin-top: 7px;
 }
 button.w3view-cart {
-    background: transparent;
+    /* background: transparent; */
     border: none;
 }
 button.w3view-cart:focus{
 	outline:none;
 }
 .logo_products {
-    padding: 1em 0;
+    padding: .5em 0;
 }
 .w3ls_logo_products_left {
     float: left;
@@ -200,6 +200,7 @@ button.w3view-cart:focus{
     float: left;
     margin-top: 0.6em;
     width: 33.33%;
+    padding-left: 200px;
 }
 .w3ls_logo_products_left1 ul.phone_email li{
 	display:inline-block;
@@ -303,12 +304,12 @@ ul.multi-column-dropdown h6 {
 /*-- cart --*/
 /*-- cart-box --*/
 .w3view-cart {
-    background: #3399cc;
+    background: transparent;
     border: none;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	-ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	  -o-border-radius: 50%;
+	  -ms-border-radius: 50%;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -317,7 +318,7 @@ ul.multi-column-dropdown h6 {
 }
 .w3view-cart i.fa {
     font-size: 24px;
-    color: #ffffff;
+    color: #000000;
     vertical-align: middle;
 }
 /*-- //cart-box --*/
@@ -385,7 +386,8 @@ ul.multi-column-dropdown h6 {
 }
 /*-- cart --*/
 .product_list_header {
-    float: right;
+    float: left;
+    padding: 10px 0px;
 }
 .snipcart-details {
     text-align: center;

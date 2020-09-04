@@ -1,71 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>TreG Mart</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Super Market Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- font-awesome icons -->
-<link href="static/css/font-awesome.css" rel="stylesheet">
-<!-- //font-awesome icons -->
-<!-- js -->
-<script src="static/js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
-<link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="static/js/move-top.js"></script>
-<script type="text/javascript" src="static/js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	<title>TreG Mart</title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Super Market Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+			function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- font-awesome icons -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link href="static/css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- js -->
+	<script src="static/js/jquery-1.11.1.min.js"></script>
+	<!-- //js -->
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="static/js/move-top.js"></script>
+	<script type="text/javascript" src="static/js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
 		});
-	});
-</script>
+	</script>
 <!-- start-smoth-scrolling -->
 </head>
 
 <body>
-<!-- header -->
-	<div class="agileits_header">
-		<div class="container">
-			<div class="w3l_offers">
-				<p><a href="products.html">SHOP NOW</a></p>
-			</div>
-			<div class="agile-login">
-				<ul>
-					<li><a href="registered.html"> Create Account </a></li>
-					<li><a href="login.html">Login</a></li>
-					<li><a href="contact.html">Help</a></li>
-
-				</ul>
-			</div>
-			<div class="product_list_header">
-					<form action="#" method="post" class="last">
-						<input type="hidden" name="cmd" value="_cart">
-						<input type="hidden" name="display" value="1">
-						<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-					</form>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-
 	<div class="logo_products">
-		<div class="container">
+		<div class="container-fluid">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
 					<li> <img src="static/images/treglogo22.png" alt="" width="60px" height="50px"></li>
-
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
@@ -77,11 +51,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<button type="submit" class="btn btn-default search" aria-label="Left Align">
 					<i class="fa fa-search" aria-hidden="true"> </i>
 				</button>
-				<div class="clearfix"></div>
+				<!-- <div class="clearfix"></div> -->
 			</form>
 		</div>
-
-			<div class="clearfix"> </div>
+			<div class="agile-login">
+				<ul>
+					<li><a href="registered.html">Register</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="contact.html">Help</a></li>
+					<li>
+						<form action="#" method="post" class="last">
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="display" value="1">
+							<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+						</form>
+					</li>
+				</ul>
+			</div>
+			<!-- <div class="clearfix"> </div> -->
+			<!-- <div class="product_list_header">
+			</div> -->
 		</div>
 	</div>
 <!-- //header -->
@@ -799,8 +788,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //top-brands -->
  <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
+    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      Indicators
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -821,9 +810,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
       </div>
 
-    </div><!-- /.carousel -->
+    </div><.carousel -->
 <!--banner-bottom-->
-				<div class="ban-bottom-w3l">
+				<!-- <div class="ban-bottom-w3l">
 					<div class="container">
 					<div class="col-md-6 ban-bottom3">
 							<div class="ban-top">
@@ -856,7 +845,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 						<div class="clearfix"></div>
 					</div>
-				</div>
+				</div> -->
 <!--banner-bottom-->
 <!--brands-->
 	<div class="brands">
@@ -865,33 +854,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="brands-agile">
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Amul</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Parle</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">ITC</a></p>
 					</div>
 				</div>
 
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Mc Cain</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">MTR</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Patanjali</a></p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -899,33 +888,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="brands-agile-1">
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Britannia</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Dabur</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Everest</a></p>
 					</div>
 				</div>
 
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Saffola</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Fortune</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Daawat</a></p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -933,33 +922,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="brands-agile-2">
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Heritage</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Cadbury</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Vadilal</a></p>
 					</div>
 				</div>
 
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Hindustan</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Hatsun Argo</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 w3layouts-brand">
 					<div class="brands-w3l">
-						<p><a href="#">Lorem</a></p>
+						<p><a href="#">Sunfeast</a></p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
