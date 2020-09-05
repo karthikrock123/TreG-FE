@@ -200,7 +200,7 @@ button.w3view-cart:focus{
     float: left;
     margin-top: 0.6em;
     width: 33.33%;
-    padding-left: 200px;
+    text-align: center;
 }
 .w3ls_logo_products_left1 ul.phone_email li{
 	display:inline-block;
@@ -3396,4 +3396,8 @@ td.invert-image a img {
 
 .links{
     font-weight: 500;
+}
+
+.fab-icons{
+    padding: 0px 5px;
 }
